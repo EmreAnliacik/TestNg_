@@ -1,5 +1,7 @@
 package Gun03;
 
+import org.testng.annotations.AfterGroups;
+import org.testng.annotations.BeforeGroups;
 import org.testng.annotations.Test;
 
 public class _04_Groups {
@@ -37,6 +39,16 @@ public class _04_Groups {
     @Test
     public void Test7(){
         System.out.println("Test7");
+    }
+
+    @BeforeGroups(groups = {"Smoke Test"})
+    public void bGroup() {
+        System.out.println("Before Grouo");
+    }
+
+    @AfterGroups(groups = {"Smoke Test"})
+    public void aGroup() {
+        System.out.println("After Group");
     }
 
 

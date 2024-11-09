@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="mySuit">
+    <test name="myTest1">
+
+        <groups>
+            <run>
+
+            </run>
+        </groups>
+
+
+
+        <classes>
+            <class name="Gun03._04_Groups"></class>
+            <class name="Gun03._02_Intro"></class>
+        </classes>
+    </test>
+</suite>
