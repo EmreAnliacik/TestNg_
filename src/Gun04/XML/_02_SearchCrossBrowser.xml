@@ -1,0 +1,35 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="mySuit">
+    <test name="myTest1">
+
+        <parameter name="product" value="mac"></parameter>
+        <parameter name="browserType" value="edge"></parameter>
+
+
+
+        <classes>
+
+            <class name="Gun04._02_SearchParameterDriver"></class>
+
+        </classes>
+    </test>
+
+    <test name="myTest2">
+
+        <parameter name="product" value="samsung"></parameter>
+        <parameter name="browserType" value="chrome"></parameter>
+
+
+
+        <classes>
+
+            <class name="Gun04._01_SearchFunctionality"></class>
+
+        </classes>
+    </test>
+
+
+
+
+
+</suite>
