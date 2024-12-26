@@ -1,0 +1,38 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="mySuit" parallel="tests" thread-count="3">  <!-- thread-count kac adet testin paralel calisacagini yazariz-->
+    <test name="myTest1">
+
+
+        <parameter name="browserType" value="edge"></parameter>
+
+
+
+        <classes>
+
+            <class name="Gun05._04_Scenario"></class>
+
+        </classes>
+    </test>
+
+    <test name="myTest2">
+
+
+        <parameter name="browserType" value="chrome"></parameter>
+
+
+
+        <classes>
+
+            <class name="Gun05._04_Scenario"></class>
+
+        </classes>
+    </test>
+
+
+
+
+
+
+
+
+</suite>
